@@ -1,220 +1,306 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0b0b0d" />
-  <meta name="description" content="The wedding invitation of Adnan & Wafaa — 10 July 2027, Florya." />
-  <title>Adnan & Wafaa — 10 July 2027</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0b0d" />
+    <meta
+      name="description"
+      content="The wedding invitation of Adnan & Wafaa — 10 July 2027, Florya."
+    />
+    <title>Adnan & Wafaa — 10 July 2027</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-  <div id="preloader" class="preloader">
-    <div class="seal-loader"><span>ن</span></div>
-    <p>Our story is about to begin…</p>
-  </div>
-
-  <div class="envelope-overlay" id="envelopeOverlay" aria-hidden="true">
-    <div class="envelope-scene">
-      <div class="envelope">
-        <div class="envelope-back"></div>
-        <div class="envelope-flap"></div>
-        <div class="envelope-front"></div>
-        <div class="wax-seal"><span>ع</span></div>
-      </div>
-      <button id="openInvitation" class="open-button">Open Invitation</button>
-      <p class="envelope-hint">بسم الله الرحمن الرحيم</p>
+  <body>
+    <div id="preloader" class="preloader">
+      <div class="seal-loader"><span>ن</span></div>
+      <p>Our story is about to begin…</p>
     </div>
-  </div>
 
-  <button class="music-control" id="musicControl" aria-label="Toggle background music">
-    <span class="music-icon">♪</span>
-    <span id="musicLabel">Music</span>
-  </button>
-  <audio id="weddingMusic" loop preload="none">
-    <!-- Replace with your own royalty-free MP3 -->
-    <source src="assets/wedding-music.mp3" type="audio/mpeg" />
-  </audio>
-
-  <main>
-    <section class="hero section-dark">
-      <div class="hero-pattern"></div>
-      <nav class="nav">
-        <a class="monogram" href="#home" aria-label="Adnan and Wafaa">A<span>&</span>W</a>
-        <div class="nav-links">
-          <a href="#story">Our Story</a>
-          <a href="#details">Details</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#rsvp">RSVP</a>
+    <div class="envelope-overlay" id="envelopeOverlay" aria-hidden="true">
+      <div class="envelope-scene">
+        <div class="envelope">
+          <div class="envelope-back"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-front"></div>
+          <div class="wax-seal"><span>ع</span></div>
         </div>
-      </nav>
-
-      <div class="hero-content reveal">
-        <p class="eyebrow">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ</p>
-        <p class="small-caps">Together with their families</p>
-        <h1>Adnan <i>&</i> Wafaa</h1>
-        <div class="ornament"><span></span><b>ع</b><span></span></div>
-        <p class="hero-arabic" dir="rtl">يسعدنا أن نشارككم أجمل لحظات حياتنا</p>
-        <p class="hero-date">10 · 07 · 2027</p>
-        <p class="hero-location">Florya · Istanbul</p>
-        <a href="#details" class="scroll-cue"><span></span>Discover our day</a>
+        <button id="openInvitation" class="open-button">Open Invitation</button>
+        <p class="envelope-hint">بسم الله الرحمن الرحيم</p>
       </div>
-    </section>
+    </div>
 
-    <section class="welcome section-light">
-      <div class="section-inner narrow reveal">
-        <span class="section-number">01</span>
-        <p class="eyebrow gold">A NEW CHAPTER</p>
-        <h2>Two lives.<br><em>One beautiful story.</em></h2>
-        <p class="lead">
-          With grateful hearts and surrounded by the people we love,
-          we invite you to celebrate the beginning of our forever.
-        </p>
-        <p class="arabic-copy" dir="rtl">
-          بكل الحب والامتنان، ندعوكم لمشاركتنا فرحتنا واحتفالنا ببداية حياتنا معاً.
-        </p>
-      </div>
-    </section>
+    <button
+      class="music-control"
+      id="musicControl"
+      aria-label="Toggle background music"
+    >
+      <span class="music-icon">♪</span>
+      <span id="musicLabel">Music</span>
+    </button>
+    <audio id="weddingMusic" loop preload="none">
+      <!-- Replace with your own royalty-free MP3 -->
+      <source src="assets/wedding-music.mp3" type="audio/mpeg" />
+    </audio>
 
-    <section id="story" class="story section-dark">
-      <div class="section-inner">
-        <div class="section-heading reveal">
-          <span class="section-number">02</span>
-          <p class="eyebrow gold">OUR STORY</p>
-          <h2>A little bit of <em>us.</em></h2>
-        </div>
-
-        <div class="timeline">
-          <article class="timeline-item reveal">
-            <div class="timeline-year">01</div>
-            <div class="timeline-content">
-              <span>THE BEGINNING</span>
-              <h3>When paths crossed</h3>
-              <p>Some meetings feel ordinary at first. Ours quietly became the beginning of something extraordinary.</p>
-            </div>
-          </article>
-          <article class="timeline-item reveal">
-            <div class="timeline-year">02</div>
-            <div class="timeline-content">
-              <span>THE JOURNEY</span>
-              <h3>Growing together</h3>
-              <p>Through little adventures, long conversations and countless memories, our two stories became one.</p>
-            </div>
-          </article>
-          <article class="timeline-item reveal">
-            <div class="timeline-year">03</div>
-            <div class="timeline-content">
-              <span>THE YES</span>
-              <h3>A promise for tomorrow</h3>
-              <p>And now, surrounded by our families and closest friends, we are ready to begin our next chapter.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="details" class="details section-light">
-      <div class="section-inner">
-        <div class="section-heading reveal">
-          <span class="section-number">03</span>
-          <p class="eyebrow gold">THE CELEBRATION</p>
-          <h2>Save the <em>date.</em></h2>
-        </div>
-
-        <div class="countdown reveal" id="countdown" data-date="2027-07-10T19:00:00+03:00">
-          <div><strong id="days">000</strong><span>Days</span></div>
-          <i>:</i>
-          <div><strong id="hours">00</strong><span>Hours</span></div>
-          <i>:</i>
-          <div><strong id="minutes">00</strong><span>Minutes</span></div>
-          <i>:</i>
-          <div><strong id="seconds">00</strong><span>Seconds</span></div>
-        </div>
-
-        <div class="venue-card reveal">
-          <div class="venue-image" role="img" aria-label="Elegant Istanbul waterfront venue placeholder">
-            <div class="image-placeholder"><span>FLORYA</span><small>Replace with venue photo</small></div>
+    <main>
+      <section class="hero section-dark">
+        <div class="hero-pattern"></div>
+        <nav class="nav">
+          <a class="monogram" href="#home" aria-label="Adnan and Wafaa"
+            >A<span>&</span>W</a
+          >
+          <div class="nav-links">
+            <a href="#story">Our Story</a>
+            <a href="#details">Details</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#rsvp">RSVP</a>
           </div>
-          <div class="venue-info">
-            <p class="eyebrow gold">THE VENUE</p>
-            <h3>Florya</h3>
-            <p class="venue-meta">Istanbul · Türkiye</p>
-            <div class="detail-grid">
-              <div><span>DATE</span><strong>Saturday, 10 July 2027</strong></div>
-              <div><span>RECEPTION</span><strong>19:00</strong></div>
-              <div><span>DRESS CODE</span><strong>Elegant / Formal</strong></div>
-              <div><span>LOCATION</span><strong>Florya, Istanbul</strong></div>
-            </div>
-            <a href="https://www.google.com/maps/search/?api=1&query=Florya%20Istanbul" target="_blank" rel="noopener" class="text-link">Open in Maps ↗</a>
+        </nav>
+
+        <div class="hero-content reveal">
+          <p class="eyebrow">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ</p>
+          <p class="small-caps">Together with their families</p>
+          <h1>Adnan <i>&</i> Wafaa</h1>
+          <div class="ornament"><span></span><b>ع</b><span></span></div>
+          <p class="hero-arabic" dir="rtl">
+            يسعدنا أن نشارككم أجمل لحظات حياتنا
+          </p>
+          <p class="hero-date">10 · 07 · 2027</p>
+          <p class="hero-location">Florya · Jiyeh</p>
+          <a href="#details" class="scroll-cue"
+            ><span></span>Discover our day</a
+          >
+        </div>
+      </section>
+
+      <section class="welcome section-light">
+        <div class="section-inner narrow reveal">
+          <span class="section-number">01</span>
+          <p class="eyebrow gold">A NEW CHAPTER</p>
+          <h2>Two lives.<br /><em>One beautiful story.</em></h2>
+          <p class="lead">
+            With grateful hearts and surrounded by the people we love, we invite
+            you to celebrate the beginning of our forever.
+          </p>
+          <p class="arabic-copy" dir="rtl">
+            بكل الحب والامتنان، ندعوكم لمشاركتنا فرحتنا واحتفالنا ببداية حياتنا
+            معاً.
+          </p>
+        </div>
+      </section>
+
+      <section id="story" class="story section-dark">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <span class="section-number">02</span>
+            <p class="eyebrow gold">OUR STORY</p>
+            <h2>A little bit of <em>us.</em></h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-year">01</div>
+              <div class="timeline-content">
+                <span>THE BEGINNING</span>
+                <h3>When paths crossed</h3>
+                <p>
+                  Some meetings feel ordinary at first. Ours quietly became the
+                  beginning of something extraordinary.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-year">02</div>
+              <div class="timeline-content">
+                <span>THE JOURNEY</span>
+                <h3>Growing together</h3>
+                <p>
+                  Through little adventures, long conversations and countless
+                  memories, our two stories became one.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-year">03</div>
+              <div class="timeline-content">
+                <span>THE YES</span>
+                <h3>A promise for tomorrow</h3>
+                <p>
+                  And now, surrounded by our families and closest friends, we
+                  are ready to begin our next chapter.
+                </p>
+              </div>
+            </article>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="gallery" class="gallery section-dark">
-      <div class="section-inner">
-        <div class="section-heading reveal">
-          <span class="section-number">04</span>
-          <p class="eyebrow gold">MOMENTS</p>
-          <h2>A glimpse of <em>our world.</em></h2>
+      <section id="details" class="details section-light">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <span class="section-number">03</span>
+            <p class="eyebrow gold">THE CELEBRATION</p>
+            <h2>Save the <em>date.</em></h2>
+          </div>
+
+          <div
+            class="countdown reveal"
+            id="countdown"
+            data-date="2027-07-10T19:00:00+03:00"
+          >
+            <div><strong id="days">000</strong><span>Days</span></div>
+            <i>:</i>
+            <div><strong id="hours">00</strong><span>Hours</span></div>
+            <i>:</i>
+            <div><strong id="minutes">00</strong><span>Minutes</span></div>
+            <i>:</i>
+            <div><strong id="seconds">00</strong><span>Seconds</span></div>
+          </div>
+
+          <div class="venue-card reveal">
+            <div
+              class="venue-image"
+              role="img"
+              aria-label="Elegant Istanbul waterfront venue placeholder"
+            >
+              <div class="image-placeholder">
+                <span>FLORYA</span><small>Replace with venue photo</small>
+              </div>
+            </div>
+            <div class="venue-info">
+              <p class="eyebrow gold">THE VENUE</p>
+              <h3>Florya</h3>
+              <p class="venue-meta">Jiyyeh · Lebanon</p>
+              <div class="detail-grid">
+                <div>
+                  <span>DATE</span><strong>Saturday, 10 July 2027</strong>
+                </div>
+                <div><span>RECEPTION</span><strong>19:00</strong></div>
+                <div>
+                  <span>DRESS CODE</span><strong>Elegant / Formal</strong>
+                </div>
+                <div><span>LOCATION</span><strong>Florya, Jiyyeh</strong></div>
+              </div>
+              <a
+                href="https://www.google.fr/maps/place/Florya+venue/@33.6485415,35.4107218,17z/data=!4m15!1m8!3m7!1s0x151ee3075860cad1:0x8e3a10a1d12720c5!2sFlorya+venue!8m2!3d33.6485371!4d35.4132967!10e1!16s%2Fg%2F11vrc60kn5!3m5!1s0x151ee3075860cad1:0x8e3a10a1d12720c5!8m2!3d33.6485371!4d35.4132967!16s%2Fg%2F11vrc60kn5?hl=fr&entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener"
+                class="text-link"
+                >Open in Maps ↗</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="gallery-grid">
-          <div class="gallery-item tall reveal"><div class="photo-placeholder p1"><span>PHOTO 01</span></div></div>
-          <div class="gallery-item reveal"><div class="photo-placeholder p2"><span>PHOTO 02</span></div></div>
-          <div class="gallery-item reveal"><div class="photo-placeholder p3"><span>PHOTO 03</span></div></div>
-          <div class="gallery-item wide reveal"><div class="photo-placeholder p4"><span>PHOTO 04</span></div></div>
-          <div class="gallery-item reveal"><div class="photo-placeholder p5"><span>PHOTO 05</span></div></div>
+      </section>
+
+      <section id="gallery" class="gallery section-dark">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <span class="section-number">04</span>
+            <p class="eyebrow gold">MOMENTS</p>
+            <h2>A glimpse of <em>our world.</em></h2>
+          </div>
+          <div class="gallery-grid">
+            <div class="gallery-item tall reveal">
+              <div class="photo-placeholder p1"><span>PHOTO 01</span></div>
+            </div>
+            <div class="gallery-item reveal">
+              <div class="photo-placeholder p2"><span>PHOTO 02</span></div>
+            </div>
+            <div class="gallery-item reveal">
+              <div class="photo-placeholder p3"><span>PHOTO 03</span></div>
+            </div>
+            <div class="gallery-item wide reveal">
+              <div class="photo-placeholder p4"><span>PHOTO 04</span></div>
+            </div>
+            <div class="gallery-item reveal">
+              <div class="photo-placeholder p5"><span>PHOTO 05</span></div>
+            </div>
+          </div>
+          <p class="gallery-note reveal">
+            Replace the placeholders with your own images in
+            <code>assets/</code>.
+          </p>
         </div>
-        <p class="gallery-note reveal">Replace the placeholders with your own images in <code>assets/</code>.</p>
-      </div>
-    </section>
+      </section>
 
-    <section class="arabic-section section-light">
-      <div class="arabic-card reveal" dir="rtl">
-        <span>﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ﴾</span>
-        <small>سورة الروم · ٢١</small>
-      </div>
-    </section>
-
-    <section id="rsvp" class="rsvp section-dark">
-      <div class="section-inner narrow">
-        <div class="section-heading center reveal">
-          <span class="section-number">05</span>
-          <p class="eyebrow gold">RSVP</p>
-          <h2>Will you join <em>us?</em></h2>
-          <p>Kindly let us know by 01 June 2027.</p>
+      <section class="arabic-section section-light">
+        <div class="arabic-card reveal" dir="rtl">
+          <span
+            >﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا
+            لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً
+            ﴾</span
+          >
+          <small>سورة الروم · ٢١</small>
         </div>
+      </section>
 
-        <form id="rsvpForm" class="rsvp-form reveal">
-          <input type="hidden" id="guestFromUrl" name="guest" />
-          <label>Guest name<input id="guestName" name="name" type="text" placeholder="Your name" required /></label>
-          <label>Will you be joining us?
-            <select name="attendance" required>
-              <option value="" selected disabled>Select an option</option>
-              <option value="yes">Joyfully, yes</option>
-              <option value="no">Regretfully, no</option>
-            </select>
-          </label>
-          <label>Number of guests<input name="guests" type="number" min="1" max="10" value="1" required /></label>
-          <label>Message <span>(optional)</span><textarea name="message" rows="4" placeholder="A note for Adnan & Wafaa"></textarea></label>
-          <button class="gold-button" type="submit">Send RSVP</button>
-          <p id="formStatus" class="form-status" role="status"></p>
-        </form>
-      </div>
-    </section>
+      <section id="rsvp" class="rsvp section-dark">
+        <div class="section-inner narrow">
+          <div class="section-heading center reveal">
+            <span class="section-number">05</span>
+            <p class="eyebrow gold">RSVP</p>
+            <h2>Will you join <em>us?</em></h2>
+            <p>Kindly let us know by 01 June 2027.</p>
+          </div>
 
-    <footer class="footer section-dark">
-      <div class="monogram large">A<span>&</span>W</div>
-      <p>With love, Adnan & Wafaa</p>
-      <p class="arabic-copy" dir="rtl">ننتظركم لنحتفل معاً</p>
-      <span class="footer-date">10 · 07 · 2027</span>
-    </footer>
-  </main>
+          <form id="rsvpForm" class="rsvp-form reveal">
+            <input type="hidden" id="guestFromUrl" name="guest" />
+            <label
+              >Guest name<input
+                id="guestName"
+                name="name"
+                type="text"
+                placeholder="Your name"
+                required
+            /></label>
+            <label
+              >Will you be joining us?
+              <select name="attendance" required>
+                <option value="" selected disabled>Select an option</option>
+                <option value="yes">Joyfully, yes</option>
+                <option value="no">Regretfully, no</option>
+              </select>
+            </label>
+            <label
+              >Number of guests<input
+                name="guests"
+                type="number"
+                min="1"
+                max="10"
+                value="1"
+                required
+            /></label>
+            <label
+              >Message <span>(optional)</span
+              ><textarea
+                name="message"
+                rows="4"
+                placeholder="A note for Adnan & Wafaa"
+              ></textarea>
+            </label>
+            <button class="gold-button" type="submit">Send RSVP</button>
+            <p id="formStatus" class="form-status" role="status"></p>
+          </form>
+        </div>
+      </section>
 
-  <script src="script.js"></script>
-</body>
+      <footer class="footer section-dark">
+        <div class="monogram large">A<span>&</span>W</div>
+        <p>With love, Adnan & Wafaa</p>
+        <p class="arabic-copy" dir="rtl">ننتظركم لنحتفل معاً</p>
+        <span class="footer-date">10 · 07 · 2027</span>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
